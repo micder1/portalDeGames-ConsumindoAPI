@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body, html{
+    margin: 0;
+    font-family: 'Poppins';
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+header{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.navbar{
+    background: #343a40;
+}
+
+.navbar > .logo{
+    border: solid 1px #343a40;
+    border-radius: 10px;
+    transition: border 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
+}
+
+.navbar > .logo:hover{
+    border-radius: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+.navbar > a > span{
+    padding-right: 10px;
+    transition: color 0.3s ease-in-out;
+}
+.navbar > a > svg{
+    transition: fill 0.3s ease-in-out;
+}
+
+.navbar > a > span:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar > a > svg:hover{
+    fill: rgb(255, 255, 255);
+}
+
+.bi-dpad{
+    padding: 5px;
+    fill: rgb(241, 241, 241);
+}
+
+.bi-search{
+    fill: rgb(241, 241, 241);
+}
+
+.navbar a{
+    color: rgb(241, 241, 241);
+}
+
+.navbar .logo{
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+}
+
+.navitem{
+    margin-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-right: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.bi-instagram{
+    fill: #343a40;
+}
+.bi-twitter{
+    fill: #343a40;
+}
+.bi-github{
+    fill: #343a40;
+}
+.bi-linkedin{
+    fill: #343a40;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #343a40;
+}
+.footer p{
+    color: white;
+}
+
+.footer p{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.footer .logo{
+    color: white;
+}
+
+.destaques{
+    padding-bottom: 50px;
+}
+
+.destaques iframe{
+    width: 100%;
+    height: 370px;
+}
+
+.mais-det{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.plataformas h2{
+    font-weight: bold;
+}
+
+.publishers h2{
+    font-weight: bold;
+}
+
+.txt-fade{
+    padding: 5px;
+    border-bottom: 1px solid black;
+    transition: border-width 0.2s ease-in;
+}
+
+.txt-fade:hover{
+    border-width: 2px;
+}
+
+.video{
+    padding-bottom: 40px;
+}
+
+.titulo-destaques{
+    background-color: rgb(238, 238, 238);
+}
+
+.titulo-destaques h1{
+    margin: 0;
+}
+
+.myCarousel{
+    background-color: rgb(238, 238, 238);
+}
+
+.carousel-inner{
+    background-color: rgb(238, 238, 238);
+}
+
+.container iframe{
+    width: 100%;
+}
+
+.container{
+    padding-top: 20px;
+}
+
+.texto .text-l{
+    justify-content: end;
+    text-align: end;
+}
+
+.right{
+    float: right;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.left{
+    font-size: 1.3em;
+    float: left;
+    font-weight: bold;
+}
+
+.btn-carregar-mais{
+    float: right;
+    border: none;
+    background: #343a40;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    transition: background 0.3s ease-in;
+}
+
+.btn-carregar-mais:hover{
+    background: rgb(0, 0, 0);
+}
+
+.plataformas{
+    background: rgb(238, 238, 238);
+}
+
+.plataformas img{
+    width: 80%;
+    padding: 30px 0;
+}
+
+.publishers img{
+    width: 100%;
+}
+
+.titulo-lancamentos .titulo{
+    display: block;
+}
+
+.titulo-lancamentos{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filtros select{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.carousel .carousel-indicators li{
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.sobre{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    iframe{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    iframe{
+        height: 280px;
+    }
+}
+
+.esconder{
+    display: none;
+}
